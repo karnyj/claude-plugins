@@ -35,7 +35,9 @@ for the decision; the ADR never decides or requires it.
 2. **Evergreen.** It stays true as the project grows and the code moves:
    - no code locations or line numbers anywhere, evidence lists included;
    - no counts, sizes, values of constants, lists of members or current defaults that go stale;
-   - no "today" or "currently".
+   - no "today" or "currently", and no statement of how things stand that a later change could make
+     false while the decision still stands. If the decision rests on one, it is written as it stood
+     then: "because Y was not possible at the time".
 
    Evergreen does not mean nameless. Name the class, method, field, command or document; leave out
    its path and line numbers. "The project's development guide" in place of `DEVELOPMENT.md` makes
@@ -74,6 +76,19 @@ An ADR is not maintained to keep up with changes. When work touches what an ADR 
 - **It seriously reverses the decision:** write a new ADR that supersedes the old one. The new ADR
   names the one it supersedes. The old one's Status becomes `Superseded by ADR-NNNN`, as Nygard format
   has it; nothing else in it changes.
+
+Before amending, check what the amendment would record. When a change that leaves the decision
+standing conflicts with a statement of how things stood, the amendment would only record that things
+have moved on, and the ADR would become a status document instead of a decision. Don't amend. Change
+that statement where it is, in one of two ways:
+
+1. **The decision holds without it:** remove it.
+2. **It explains the decision:** put it in the past tense. "We did X because Y is not possible"
+   becomes "we did X because Y was not possible at the time".
+
+Having to do either, for a change that leaves the decision standing, is a strong sign that the
+statement, or the whole ADR, should not have been there in the first place. Tell the user which you
+think it is.
 
 ## Format
 
@@ -145,7 +160,8 @@ what the user said: it understood everything and didn't diverge.
 
 1. Check that it earns an ADR, or, for an amendment, that what it adds would: see "What earns an
    ADR". Being asked for an ADR doesn't make something one. If it's a user story, a UI/UX decision,
-   a bug fix or a list, say so and don't write it.
+   a bug fix or a list, say so and don't write it. If an amendment would only record that things
+   have moved on, don't write it either: see "Amending or superseding".
 2. Gather the sources: the code, the docs, and the user's own words. Ask the user about anything
    unknown that blocks the draft. If the ADR can't be written without inventing something, don't
    write it: ask the user.
