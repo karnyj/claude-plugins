@@ -7,14 +7,14 @@ My personal Claude Code plugin marketplace. It is not listed anywhere in Claude 
 In Claude Code (any project):
 
 ```
-/plugin marketplace add GITHUB_OWNER/claude-plugins
+/plugin marketplace add karnyj/claude-plugins
 /plugin install example-skills@yonatan-plugins
 ```
 
 Or from a terminal:
 
 ```bash
-claude plugin marketplace add GITHUB_OWNER/claude-plugins
+claude plugin marketplace add karnyj/claude-plugins
 ```
 
 To have a project offer these plugins to everyone who works in it, add this to that project's `.claude/settings.json`:
@@ -23,7 +23,7 @@ To have a project offer these plugins to everyone who works in it, add this to t
 {
   "extraKnownMarketplaces": {
     "yonatan-plugins": {
-      "source": { "source": "github", "repo": "GITHUB_OWNER/claude-plugins" }
+      "source": { "source": "github", "repo": "karnyj/claude-plugins" }
     }
   },
   "enabledPlugins": {
