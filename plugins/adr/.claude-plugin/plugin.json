@@ -1,0 +1,8 @@
+{
+  "name": "adr",
+  "description": "Writes ADRs (architecture decision records) that stay true without upkeep: what earns one, the writing rules, amending vs superseding, the CLAUDE.md or AGENTS.md index, and fresh-context reviews of every draft.",
+  "version": "1.0.0",
+  "author": { "name": "Yonatan" },
+  "license": "MIT",
+  "keywords": ["adr", "architecture", "decision-records", "documentation"]
+}
