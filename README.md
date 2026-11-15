@@ -1,6 +1,6 @@
 # claude-plugins
 
-A Claude Code plugin marketplace. Put your skills, slash commands, agents, hooks and MCP servers here once, then install them in any project.
+My personal Claude Code plugin marketplace. It is not listed anywhere in Claude Code; only people who add this repo with `/plugin marketplace add` see it. Put skills, slash commands, agents, hooks and MCP servers here once, then install them in any project.
 
 ## Use it
 

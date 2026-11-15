@@ -5,7 +5,7 @@
     "name": "Yonatan"
   },
   "metadata": {
-    "description": "A community marketplace of Claude Code plugins: skills, commands, agents, hooks and MCP servers.",
+    "description": "Yonatan's personal Claude Code plugins: skills, commands, agents, hooks and MCP servers.",
     "version": "1.0.0"
   },
   "plugins": [
