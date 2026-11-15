@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "yonatan-plugins",
+  "owner": {
+    "name": "Yonatan"
+  },
+  "metadata": {
+    "description": "A community marketplace of Claude Code plugins: skills, commands, agents, hooks and MCP servers.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "example-skills",
+      "source": "./plugins/example-skills",
+      "description": "Example plugin showing how to package skills. Includes a commit-message skill.",
+      "version": "1.0.0",
+      "author": { "name": "Yonatan" },
+      "category": "productivity",
+      "keywords": ["example", "git", "skills"]
+    }
+  ]
+}

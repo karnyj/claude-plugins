@@ -1,0 +1,8 @@
+{
+  "name": "example-skills",
+  "description": "Example plugin showing how to package skills. Includes a commit-message skill.",
+  "version": "1.0.0",
+  "author": { "name": "Yonatan" },
+  "license": "MIT",
+  "keywords": ["example", "git", "skills"]
+}
