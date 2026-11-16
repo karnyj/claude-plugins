@@ -53,6 +53,7 @@ plugins/
 | Plugin | Description |
 |---|---|
 | [example-skills](plugins/example-skills) | Example plugin with a `commit-message` skill |
+| [adr](plugins/adr) | Writes ADRs (architecture decision records) that stay true without upkeep, with fresh-context reviews of every draft |
 
 ## Add your own
 
