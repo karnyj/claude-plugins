@@ -1,0 +1,8 @@
+{
+  "name": "cleanup-review",
+  "description": "A fresh-context review of any text output (code, comments, docs, PR descriptions, messages) against only its original input, for the residue of how it was made: orphaned terms, jargon where a thing's name belongs, stale text, ticket numbers and other pointers back to the source, author narration, restating, and leftovers from an abandoned approach.",
+  "version": "1.0.0",
+  "author": { "name": "Yonatan" },
+  "license": "MIT",
+  "keywords": ["review", "cleanup", "writing", "comments", "documentation"]
+}
