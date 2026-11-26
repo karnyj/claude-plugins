@@ -54,6 +54,7 @@ plugins/
 |---|---|
 | [example-skills](plugins/example-skills) | Example plugin with a `commit-message` skill |
 | [adr](plugins/adr) | Writes ADRs (architecture decision records) that stay true without upkeep, with fresh-context reviews of every draft |
+| [cleanup-review](plugins/cleanup-review) | Reviews any text output for the residue of how it was made, with a fresh-context reviewer that sees only the original input |
 
 ## Add your own
 
